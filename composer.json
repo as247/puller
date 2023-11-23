@@ -1,0 +1,31 @@
+{
+    "name": "as247/puller",
+    "description": "A laravel package for broadcasting events using long-polling",
+    "keywords": ["laravel", "puller", "broadcasting", "long-polling"],
+    "license": "MIT",
+    "homepage": "https://github.com/as247/puller",
+    "support": {
+        "issues": "https://github.com/as247/puller/issues",
+        "source": "https://github.com/as247/puller"
+    },
+    "authors": [
+        {
+            "name": "As247",
+            "email": "as247@wpstarter.dev"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "As247\\Puller\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "As247\\Puller\\PullerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

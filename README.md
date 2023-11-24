@@ -2,9 +2,12 @@
 A laravel package for broadcasting events using long-polling
 
 ## Installation
+
+
 ```bash
 composer require as247/puller
 php artisan migrate
+npm i puller-js
 ```
 
 
